@@ -1,0 +1,362 @@
+
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+        <p>Explained as: feature importances</p>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+        
+        <pre>
+Feature importances, computed as a decrease in score when feature
+values are permuted (i.e. become noise). This is also known as 
+permutation importance.
+
+If feature importances are computed on the same data as used for training, 
+they don't reflect importance of features for generalization. Use a held-out
+dataset if you want generalization feature importances.
+</pre>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class="eli5-weights eli5-feature-importances" style="border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;">
+    <thead>
+    <tr style="border: none;">
+        <th style="padding: 0 1em 0 0.5em; text-align: right; border: none;">Weight</th>
+        <th style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style="background-color: hsl(120, 100.00%, 80.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0376
+                
+                    &plusmn; 0.0078
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__Contract_Month-to-month
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 83.28%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0291
+                
+                    &plusmn; 0.0045
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                remainder__tenure_mo
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 84.25%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0267
+                
+                    &plusmn; 0.0057
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                remainder__MonthlyCharges
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 85.21%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0244
+                
+                    &plusmn; 0.0034
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                remainder__TotalCharges
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 90.93%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0121
+                
+                    &plusmn; 0.0032
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__InternetService_Fiber optic
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 92.12%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0099
+                
+                    &plusmn; 0.0017
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__OnlineSecurity_No
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.10%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0066
+                
+                    &plusmn; 0.0027
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__TechSupport_No
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.26%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0063
+                
+                    &plusmn; 0.0026
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PaymentMethod_Electronic check
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.65%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0029
+                
+                    &plusmn; 0.0020
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__Contract_Two year
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.81%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0027
+                
+                    &plusmn; 0.0020
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PaperlessBilling_False
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 97.27%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0022
+                
+                    &plusmn; 0.0010
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PaperlessBilling_True
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 97.81%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0016
+                
+                    &plusmn; 0.0017
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PhoneService_True
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.43%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0010
+                
+                    &plusmn; 0.0008
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__TechSupport_Yes
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.43%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0010
+                
+                    &plusmn; 0.0010
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PhoneService_False
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.69%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0008
+                
+                    &plusmn; 0.0011
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PaymentMethod_Credit card (automatic)
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 99.39%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__Contract_One year
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 99.49%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__PaymentMethod_Bank transfer (automatic)
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 99.49%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__OnlineSecurity_Yes
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__InternetService_DSL
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ohe__TechSupport_No internet service
+            </td>
+        </tr>
+    
+    
+        
+            <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+                <td colspan="2" style="padding: 0 0.5em 0 0.5em; text-align: center; border: none; white-space: nowrap;">
+                    <i>&hellip; 3 more &hellip;</i>
+                </td>
+            </tr>
+        
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
